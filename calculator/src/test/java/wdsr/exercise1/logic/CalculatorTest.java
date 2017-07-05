@@ -69,10 +69,10 @@ public class CalculatorTest {
     int[] values = {-5};
 
     // when
-    int min = calculator.max(values);
+    int max = calculator.max(values);
 
     // then
-    assertThat(values[0], is(min));
+    assertThat(values[0], is(max));
   }
 
   @Test
