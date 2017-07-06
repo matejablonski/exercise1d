@@ -52,7 +52,7 @@ public class ArrayConverterTest {
   }
 
   @Test(expected = NumberFormatException.class)
-  public void testMax_shouldRaiseAnExceptionForNotNumberArgument() {
+  public void testConvertToInts_shouldRaiseAnExceptionForNotNumberArgument() {
     // given
     String[] values = {"a", "cvfd"};
 
